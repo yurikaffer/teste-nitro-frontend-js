@@ -72,6 +72,13 @@ button {
   font-size: 14px;
   font-weight: 500;
   font-family: Lato, Inter;
+  transition: background-color 0.3s;
+}
+
+button:active {
+  
+  transform: scale(0.90); /* Diminui o tamanho do botão em 5% */
+  transition: transform 0.3s;
 }
 
 button:hover {
